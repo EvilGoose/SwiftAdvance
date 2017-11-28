@@ -42,11 +42,41 @@ squared
 
 print("-----------")
 
-let squares = fibs.map { fib  in
-      fib * fib
+let squares = fibs.map {fib  in fib * fib}
+squares
+
+print("-----------")
+
+
+let squares1 = fibs.map { (fib) in
+    fib + 20
 }
+squares1
 
 
+squares1.min()
+squares1.sorted()
 
+print("-----------")
+
+let names = ["Paula", "Elena", "Zoe"]
+names.reversed()
+var lasNameEndingInA: String?
+for name in names.reversed() where name.hasPrefix("P") {
+    lasNameEndingInA = name
+    break
+}
+lasNameEndingInA
+
+print("-----------")
+
+var numbers = 0..<10
+numbers.filter {num in num % 2 == 0}
+numbers.reduce(0, +)
+
+[1, 2, 3].forEach{element in//对每个元素调用方法是使用
+    print(element)
+    if element > 2 {return}//amazing！
+}
 
 
