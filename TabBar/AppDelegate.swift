@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  SwiftAdvanceDemos
+//  TabBar
 //
-//  Created by EG on 2017/11/28.
+//  Created by PD on 2017/12/20.
 //  Copyright © 2017年 EGMade. All rights reserved.
 //
 
@@ -19,10 +19,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         self.window = UIWindow.init(frame: UIScreen.main.bounds)
         
-        self.window?.rootViewController = UINavigationController.init(rootViewController: EGRootViewController.init())
+        let rootController = EGTabBarController.init()
+        rootController.addChildViewController(EGBasicNavigationController.init(rootViewController: EGFirstViewController.init()))
+        rootController.addChildViewController(EGBasicNavigationController.init(rootViewController: EGSecondViewController.init()))
+        rootController.addChildViewController(EGBasicNavigationController.init(rootViewController: EGThirdViewController.init()))
+        
+        self.window?.rootViewController = rootController
+        
         
         self.window?.makeKeyAndVisible()
-        
         
         return true
     }

@@ -79,4 +79,8 @@ numbers.reduce(0, +)
     if element > 2 {return}//amazing！
 }
 
+let slice = fibs[1..<fibs.endIndex]
+slice
+type(of: slice)
+
 
