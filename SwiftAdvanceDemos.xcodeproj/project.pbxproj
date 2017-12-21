@@ -71,8 +71,8 @@
 			children = (
 				6F48B62B1FEA3AD400443CEA /* EGBasicViewController.swift */,
 				6F48B62F1FEA3AF100443CEA /* EGBasicNavigationController.swift */,
-				6F48B6301FEA3AF100443CEA /* EGTabBar.swift */,
 				6F48B6311FEA3AF100443CEA /* EGTabBarController.swift */,
+				6F48B6301FEA3AF100443CEA /* EGTabBar.swift */,
 			);
 			path = Basic;
 			sourceTree = "<group>";
