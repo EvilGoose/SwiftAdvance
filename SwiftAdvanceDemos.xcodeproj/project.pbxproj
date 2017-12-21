@@ -22,6 +22,7 @@
 		6F8BC9D51FEA35860097EAD9 /* EGFirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F8BC9D41FEA35860097EAD9 /* EGFirstViewController.swift */; };
 		6F8BC9D71FEA358C0097EAD9 /* EGSecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F8BC9D61FEA358C0097EAD9 /* EGSecondViewController.swift */; };
 		6F8BC9D91FEA37720097EAD9 /* EGThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F8BC9D81FEA37720097EAD9 /* EGThirdViewController.swift */; };
+		6FD97C5C1FEBB5BC0073834B /* EGScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FD97C5B1FEBB5BC0073834B /* EGScrollView.swift */; };
 		76F8E1ECFCEB2ABC8DC6D7E3 /* Pods_TabBar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2E4EE13B19296875B9BE0BA /* Pods_TabBar.framework */; };
 		C4F009971FCD15BB00A23068 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4F009961FCD15BB00A23068 /* AppDelegate.swift */; };
 		C4F0099E1FCD15BB00A23068 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4F0099D1FCD15BB00A23068 /* Assets.xcassets */; };
@@ -48,6 +49,7 @@
 		6F8BC9D41FEA35860097EAD9 /* EGFirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EGFirstViewController.swift; sourceTree = "<group>"; };
 		6F8BC9D61FEA358C0097EAD9 /* EGSecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EGSecondViewController.swift; sourceTree = "<group>"; };
 		6F8BC9D81FEA37720097EAD9 /* EGThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EGThirdViewController.swift; sourceTree = "<group>"; };
+		6FD97C5B1FEBB5BC0073834B /* EGScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EGScrollView.swift; sourceTree = "<group>"; };
 		A4295BE8D70C1BB4C3943E0D /* Pods-SwiftAdvanceDemos.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftAdvanceDemos.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftAdvanceDemos/Pods-SwiftAdvanceDemos.release.xcconfig"; sourceTree = "<group>"; };
 		BD44F10D9BFB446C0F2A46E8 /* Pods-TabBar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TabBar.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TabBar/Pods-TabBar.debug.xcconfig"; sourceTree = "<group>"; };
 		C4F009931FCD15BB00A23068 /* SwiftAdvanceDemos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftAdvanceDemos.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -121,6 +123,7 @@
 				6F8BC9D41FEA35860097EAD9 /* EGFirstViewController.swift */,
 				6F44F7341FEB5B310080407C /* EGFirstChildViewController.swift */,
 				6F8BC9D61FEA358C0097EAD9 /* EGSecondViewController.swift */,
+				6FD97C5B1FEBB5BC0073834B /* EGScrollView.swift */,
 				6F8BC9D81FEA37720097EAD9 /* EGThirdViewController.swift */,
 				6F44F7361FEB7EE00080407C /* EGThirdTopTableViewCell.swift */,
 			);
@@ -391,6 +394,7 @@
 				6F44F7371FEB7EE00080407C /* EGThirdTopTableViewCell.swift in Sources */,
 				6F8BC9BD1FEA32180097EAD9 /* AppDelegate.swift in Sources */,
 				6F8BC9D91FEA37720097EAD9 /* EGThirdViewController.swift in Sources */,
+				6FD97C5C1FEBB5BC0073834B /* EGScrollView.swift in Sources */,
 				6F48B6341FEA3AF100443CEA /* EGTabBarController.swift in Sources */,
 				6F44F7351FEB5B310080407C /* EGFirstChildViewController.swift in Sources */,
 			);
@@ -437,7 +441,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8PLB35PLP3;
 				INFOPLIST_FILE = TabBar/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = evi.TabBar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -454,7 +458,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8PLB35PLP3;
 				INFOPLIST_FILE = TabBar/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = evi.TabBar;
 				PRODUCT_NAME = "$(TARGET_NAME)";

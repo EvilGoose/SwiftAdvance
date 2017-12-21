@@ -51,4 +51,14 @@ class EGTabBarController: UITabBarController {
         self.addChildViewController(thirdVC)
 
     }
+    
+    
+//    func initialChidController(imageName:String, selectedImageName:String, title:String, className:String) -> UIViewController {
+//        let aClass = NSClassFromString(className)        
+//        controller.tabBarItem.image = UIImage.init(named: "Third")?.withRenderingMode(.alwaysOriginal)
+//        controller.tabBarItem.selectedImage = UIImage.init(named: "Third_selected")?.withRenderingMode(.alwaysOriginal)
+//        controller.tabBarItem.title = "Third"
+//        controller.tabBarItem.setTitleTextAttributes([NSAttributedStringKey.foregroundColor : UIColor.orange], for: .selected)
+//        return controller
+//    }
 }

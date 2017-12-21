@@ -30,6 +30,32 @@ class EGThirdViewController: EGBasicViewController {
     }
 }
 
+extension EGThirdViewController {
+    func showAlert() {
+        
+        let alert = UIAlertController.init(title: "换头像", message: "选择一种方式", preferredStyle: .actionSheet)
+        
+        let action1 = UIAlertAction.init(title: "相册选取", style: .default) { (action: UIAlertAction) in
+            print("hello")
+            
+        }
+        
+        let action2 = UIAlertAction.init(title: "拍照", style: .default) { (action: UIAlertAction) in
+            
+        }
+        
+        let cancel = UIAlertAction.init(title: "取消", style: .cancel) { (action: UIAlertAction) in
+            
+        }
+        
+        alert.addAction(action1)
+        alert.addAction(action2)
+        alert.addAction(cancel)
+        
+        self.navigationController?.present(alert, animated: true, completion: nil)
+    }
+}
+
 extension EGThirdViewController: UITableViewDataSource, UITableViewDelegate {
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
@@ -37,6 +63,12 @@ extension EGThirdViewController: UITableViewDataSource, UITableViewDelegate {
             let topCell =
             EGThirdTopTableViewCell.init(style: .default, reuseIdentifier: "Top_cell_ID")
             topCell.selectionStyle = .none
+            
+            topCell.callBackBlock(block: {(action : topCellActions ) in
+                print(action)
+                self.showAlert()
+            })
+            
             return topCell
         }
         

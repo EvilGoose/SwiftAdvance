@@ -10,16 +10,17 @@ import UIKit
 
 class EGSecondViewController: EGBasicViewController {
 
-    let scrollView = UIScrollView.init(frame: SCREEN_BOUNDS)
-    
+    let scrollView = EGScrollView.init(frame: SCREEN_BOUNDS)
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        scrollView.contentSize = CGSize.init(width: SCREEN_WIDTH, height: SCREEN_HEIGHT * 2)
+        scrollView.isPagingEnabled = true
+        scrollView.bounces = false;
         self.view = scrollView
         scrollView.delegate = self
-        self.scrollView.backgroundColor = UIColor.randomColor
         self.title = "Second"
     }
 }
