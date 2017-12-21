@@ -36,14 +36,11 @@ class EGBasicNavigationController: UINavigationController {
         else {
             //如果viewController栈中存在的ViewController的个数超过两个，对要返回到的上一级的界面设置hidesBottomBarWhenPushed = true
             //把tabbar进行隐藏
-            let count = self.childViewControllers.count-2
+            let count = self.childViewControllers.count - 2
             let controller = self.childViewControllers[count]
             controller.hidesBottomBarWhenPushed = true
         }
-        
-        
         return super.popViewController(animated: true)
     }
-
 }
 

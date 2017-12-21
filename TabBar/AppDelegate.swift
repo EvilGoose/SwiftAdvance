@@ -20,10 +20,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         self.window = UIWindow.init(frame: UIScreen.main.bounds)
         
         let rootController = EGTabBarController.init()
-        rootController.addChildViewController(EGBasicNavigationController.init(rootViewController: EGFirstViewController.init()))
-        rootController.addChildViewController(EGBasicNavigationController.init(rootViewController: EGSecondViewController.init()))
-        rootController.addChildViewController(EGBasicNavigationController.init(rootViewController: EGThirdViewController.init()))
-        
         self.window?.rootViewController = rootController
         
         

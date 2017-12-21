@@ -19,6 +19,7 @@ class EGSecondViewController: EGBasicViewController {
         // Do any additional setup after loading the view.
         self.view = scrollView
         scrollView.delegate = self
+        self.scrollView.backgroundColor = UIColor.randomColor
         self.title = "Second"
     }
 }
