@@ -8,29 +8,45 @@
 
 import UIKit
 
+private let CELL_ID = "third_cell_ID"
+
 class EGThirdViewController: EGBasicViewController {
 
+    let tableView = UITableView(frame: SCREEN_BOUNDS, style: .plain)
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
         self.title = "Third"
-    }
+        tableView.separatorStyle = .none
+        tableView.isScrollEnabled = false
+        tableView.register(UITableViewCell.classForCoder(), forCellReuseIdentifier: CELL_ID)
+        tableView.delegate = self
+        tableView.dataSource = self
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+        self.view = tableView
+    }
+}
+
+extension EGThirdViewController: UITableViewDataSource, UITableViewDelegate {
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCell(withIdentifier: CELL_ID)
+        cell?.selectionStyle = .none
+        cell?.textLabel?.text = "Hello world"
+        cell?.backgroundColor = UIColor.randomColor
+        return cell!
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return 5
     }
-    */
-
+    
+    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        if indexPath.row == 0 {
+            return SCREEN_HEIGHT * 0.3
+        }else {
+            return 50
+        }
+    }
 }
