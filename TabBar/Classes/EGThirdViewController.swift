@@ -19,6 +19,7 @@ class EGThirdViewController: EGBasicViewController {
 
         // Do any additional setup after loading the view.
         self.title = "Third"
+        self.navigationController?.navigationBar.isHidden = true
         tableView.separatorStyle = .none
         tableView.isScrollEnabled = false
         tableView.register(UITableViewCell.classForCoder(), forCellReuseIdentifier: CELL_ID)
@@ -31,6 +32,14 @@ class EGThirdViewController: EGBasicViewController {
 
 extension EGThirdViewController: UITableViewDataSource, UITableViewDelegate {
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        
+        if indexPath.row == 0 {
+            let topCell =
+            EGThirdTopTableViewCell.init(style: .default, reuseIdentifier: "Top_cell_ID")
+            topCell.selectionStyle = .none
+            return topCell
+        }
+        
         let cell = tableView.dequeueReusableCell(withIdentifier: CELL_ID)
         cell?.selectionStyle = .none
         cell?.textLabel?.text = "Hello world"

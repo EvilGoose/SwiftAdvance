@@ -14,7 +14,6 @@ private let CELL_ID = "Collection_cell_ID"
 class ChildCollectionViewLayout: UICollectionViewLayout {
     override init() {
         super.init()
-        
     }
     
     required init?(coder aDecoder: NSCoder) {

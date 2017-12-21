@@ -7,15 +7,15 @@
 //
 
 import UIKit
+import SnapKit
 
 class EGThirdTopTableViewCell: UITableViewCell {
 
     let icon = UIImageView.init(image: UIImage.init(named: "icon"))
     let nameLabel = UILabel.init()
-    let nationFlag = UIImageView.init(image: UIImage.init(named: "flag"))
     
     override func setSelected(_ selected: Bool, animated: Bool) {
-        super.setSelected(selected, animated: animated)
+        super.setSelected(selected, animated: false )
 
         // Configure the view for the selected state
     }
@@ -31,13 +31,26 @@ class EGThirdTopTableViewCell: UITableViewCell {
     }
     
     func initSubviews() {
-        
+        self.addSubview(icon)
+        self.addSubview(nameLabel)
+        icon.backgroundColor = UIColor.red
+        nameLabel.text = "Helo"
     }
     
     override func layoutSubviews() {
-         super.layoutSubviews()
+        super.layoutSubviews()
         
+        icon.snp.makeConstraints { (make) -> Void in
+            make.width.height.equalTo(50)
+            make.center.equalTo(self)
+        }
+        
+        nameLabel.snp.makeConstraints { (make) -> Void in
+            make.centerX.equalTo(icon)
+            make.top.equalTo(icon.snp.bottom).offset(20)
+        }
         
     }
-    
 }
+    
+
