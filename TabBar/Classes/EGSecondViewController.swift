@@ -18,7 +18,7 @@ class EGSecondViewController: EGBasicViewController {
         // Do any additional setup after loading the view.
         scrollView.contentSize = CGSize.init(width: SCREEN_WIDTH, height: SCREEN_HEIGHT * 2)
         scrollView.isPagingEnabled = true
-        scrollView.bounces = false;
+        scrollView.bounces = false
         self.view = scrollView
         scrollView.delegate = self
         self.title = "Second"
