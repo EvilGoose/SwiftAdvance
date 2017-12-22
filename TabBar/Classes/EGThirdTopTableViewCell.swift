@@ -39,6 +39,7 @@ class EGThirdTopTableViewCell: UITableViewCell {
         super.init(style: style, reuseIdentifier: reuseIdentifier)
         self.initSubviews()
         self.initActions()
+        self.backgroundColor = UIColor.lightGray
     }
     
     required init?(coder aDecoder: NSCoder) {

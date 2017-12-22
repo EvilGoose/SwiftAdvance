@@ -15,16 +15,22 @@ class EGSecondViewController: EGBasicViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        self.view.backgroundColor = UIColor.randomColor
         // Do any additional setup after loading the view.
-        scrollView.contentSize = CGSize.init(width: SCREEN_WIDTH, height: SCREEN_HEIGHT * 2)
+        scrollView.contentSize = CGSize.init(width: SCREEN_WIDTH * 3, height: SCREEN_HEIGHT)
         scrollView.isPagingEnabled = true
         scrollView.bounces = false
         self.view = scrollView
         scrollView.delegate = self
+        scrollView.egDelegate = self
         self.title = "Second"
     }
 }
 
-extension EGSecondViewController: UIScrollViewDelegate {
+extension EGSecondViewController: UIScrollViewDelegate, EGScrollViewDelegate {
+    func didTapScrollView(scrollView: EGScrollView) {
+        print("touches the scroll view")
+    }
     
+ 
 }

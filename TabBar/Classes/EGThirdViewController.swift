@@ -85,9 +85,28 @@ extension EGThirdViewController: UITableViewDataSource, UITableViewDelegate {
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         if indexPath.row == 0 {
-            return SCREEN_HEIGHT * 0.3
+            return SCREEN_HEIGHT * 0.35
         }else {
             return 50
+        }
+    }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        switch indexPath.row {
+        case 1:
+            break
+            
+        case 2:
+            break
+            
+        case 3:
+            break
+            
+        case 4:
+            break
+            
+        default:
+            return
         }
     }
 }

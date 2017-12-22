@@ -8,8 +8,13 @@
 
 import UIKit
 
+protocol EGScrollViewDelegate {
+    func didTapScrollView(scrollView: EGScrollView)
+}
+
 class EGScrollView: UIScrollView, CAAnimationDelegate {
 
+    var egDelegate: EGScrollViewDelegate?
     var colorSets = [[CGColor]]()
     var currentColorSet: Int!
     let gradientLayer = CAGradientLayer()
@@ -18,11 +23,10 @@ class EGScrollView: UIScrollView, CAAnimationDelegate {
     // An empty implementation adversely affects performance during animation.
     override func draw(_ rect: CGRect) {
         // Drawing code
-        gradientLayer.frame = CGRect.init(x: 0, y: 0, width: rect.width, height: rect.height * 2)
+        gradientLayer.frame = CGRect.init(x: 0, y: 0, width: self.contentSize.width, height: rect.height)
         
         //设置渐变的主颜色
         gradientLayer.colors = [UIColor.red.cgColor, UIColor.yellow.cgColor, UIColor.green.cgColor]
-
         
         //将gradientLayer作为子layer添加到主layer上
         self.layer.addSublayer(gradientLayer)
@@ -32,6 +36,10 @@ class EGScrollView: UIScrollView, CAAnimationDelegate {
     }
     
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        if self.egDelegate != nil {
+            self.egDelegate?.didTapScrollView(scrollView: self)
+        }
+        
         //控制循环
         if currentColorSet < colorSets.count - 1 {
             currentColorSet! += 1
@@ -43,7 +51,7 @@ class EGScrollView: UIScrollView, CAAnimationDelegate {
 
         let colorChangeAnimation = CABasicAnimation(keyPath: "colors")
         colorChangeAnimation.delegate = self
-        colorChangeAnimation.duration = 2.0
+        colorChangeAnimation.duration = 1.0
         colorChangeAnimation.toValue = colorSets[currentColorSet]
         colorChangeAnimation.fillMode = kCAFillModeForwards
         colorChangeAnimation.isRemovedOnCompletion = false
@@ -54,7 +62,9 @@ class EGScrollView: UIScrollView, CAAnimationDelegate {
         colorSets.append([UIColor.red.cgColor, UIColor.yellow.cgColor])
         colorSets.append([UIColor.yellow.cgColor, UIColor.green.cgColor])
         colorSets.append([UIColor.green.cgColor, UIColor.cyan.cgColor])
+        colorSets.append([UIColor.cyan.cgColor, UIColor.black.cgColor])
         colorSets.append([UIColor.black.cgColor, UIColor.lightGray.cgColor])
+        colorSets.append([UIColor.lightGray.cgColor, UIColor.blue.cgColor])
         colorSets.append([UIColor.blue.cgColor, UIColor.magenta.cgColor])
         colorSets.append([UIColor.magenta.cgColor, UIColor.red.cgColor])
         currentColorSet = 0

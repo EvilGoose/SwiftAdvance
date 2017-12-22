@@ -15,6 +15,7 @@ class EGTabBarController: UITabBarController {
 
         // Do any additional setup after loading the view.
         self.addChildControllers()
+        self.selectedIndex = 1
     }
     
     
