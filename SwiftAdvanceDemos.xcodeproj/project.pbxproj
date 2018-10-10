@@ -7,24 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6F44F7351FEB5B310080407C /* EGFirstChildViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F44F7341FEB5B310080407C /* EGFirstChildViewController.swift */; };
-		6F44F7371FEB7EE00080407C /* EGThirdTopTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F44F7361FEB7EE00080407C /* EGThirdTopTableViewCell.swift */; };
-		6F48B62D1FEA3AD400443CEA /* EGBasicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F48B62B1FEA3AD400443CEA /* EGBasicViewController.swift */; };
-		6F48B6321FEA3AF100443CEA /* EGBasicNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F48B62F1FEA3AF100443CEA /* EGBasicNavigationController.swift */; };
-		6F48B6331FEA3AF100443CEA /* EGTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F48B6301FEA3AF100443CEA /* EGTabBar.swift */; };
-		6F48B6341FEA3AF100443CEA /* EGTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F48B6311FEA3AF100443CEA /* EGTabBarController.swift */; };
-		6F48B6361FEA3B5000443CEA /* EGBasicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F48B6351FEA3B5000443CEA /* EGBasicViewController.swift */; };
 		6F58693D1FCFFC1000069C90 /* EGRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F58693C1FCFFC1000069C90 /* EGRootViewController.swift */; };
 		6F5869411FCFFF4900069C90 /* EGStopWatchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F5869401FCFFF4900069C90 /* EGStopWatchViewController.swift */; };
-		6F8BC9BD1FEA32180097EAD9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F8BC9BC1FEA32180097EAD9 /* AppDelegate.swift */; };
-		6F8BC9C41FEA32180097EAD9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F8BC9C31FEA32180097EAD9 /* Assets.xcassets */; };
-		6F8BC9C71FEA32180097EAD9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F8BC9C51FEA32180097EAD9 /* LaunchScreen.storyboard */; };
-		6F8BC9D51FEA35860097EAD9 /* EGFirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F8BC9D41FEA35860097EAD9 /* EGFirstViewController.swift */; };
-		6F8BC9D71FEA358C0097EAD9 /* EGSecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F8BC9D61FEA358C0097EAD9 /* EGSecondViewController.swift */; };
-		6F8BC9D91FEA37720097EAD9 /* EGThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F8BC9D81FEA37720097EAD9 /* EGThirdViewController.swift */; };
-		6F9C7E031FECA769002D2C44 /* EGOptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F9C7E021FECA769002D2C44 /* EGOptionView.swift */; };
-		6FD97C5C1FEBB5BC0073834B /* EGScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FD97C5B1FEBB5BC0073834B /* EGScrollView.swift */; };
-		76F8E1ECFCEB2ABC8DC6D7E3 /* Pods_TabBar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2E4EE13B19296875B9BE0BA /* Pods_TabBar.framework */; };
+		91349B1121426D2D007E3869 /* EGTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91349B1021426D2D007E3869 /* EGTabBarController.swift */; };
+		91349B1321426E6C007E3869 /* EGNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91349B1221426E6C007E3869 /* EGNavigationController.swift */; };
+		91349B1621426F90007E3869 /* EGBasicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91349B1521426F90007E3869 /* EGBasicViewController.swift */; };
+		91349B1A21426FC1007E3869 /* EGSecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91349B1921426FC1007E3869 /* EGSecondViewController.swift */; };
+		91349B1C21426FC8007E3869 /* EGThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91349B1B21426FC8007E3869 /* EGThirdViewController.swift */; };
+		91349B1E21426FD4007E3869 /* EGFirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91349B1D21426FD4007E3869 /* EGFirstViewController.swift */; };
+		91820A482143A52300EB94E8 /* EGLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91820A472143A52300EB94E8 /* EGLabel.swift */; };
+		91820A4D2143AA0700EB94E8 /* EGFreshManTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91820A4B2143AA0700EB94E8 /* EGFreshManTableViewCell.swift */; };
+		91820A4E2143AA0700EB94E8 /* EGFreshManTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 91820A4C2143AA0700EB94E8 /* EGFreshManTableViewCell.xib */; };
+		91820A522143BD5400EB94E8 /* EGBannerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91820A512143BD5400EB94E8 /* EGBannerTableViewCell.swift */; };
+		91820A572143C4A600EB94E8 /* Banner_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 91820A532143C4A600EB94E8 /* Banner_1.png */; };
+		91820A582143C4A600EB94E8 /* Banner_4.png in Resources */ = {isa = PBXBuildFile; fileRef = 91820A542143C4A600EB94E8 /* Banner_4.png */; };
+		91820A592143C4A600EB94E8 /* Banner_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 91820A552143C4A600EB94E8 /* Banner_2.png */; };
+		91820A5A2143C4A600EB94E8 /* Banner_3.png in Resources */ = {isa = PBXBuildFile; fileRef = 91820A562143C4A600EB94E8 /* Banner_3.png */; };
 		C4F009971FCD15BB00A23068 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4F009961FCD15BB00A23068 /* AppDelegate.swift */; };
 		C4F0099E1FCD15BB00A23068 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4F0099D1FCD15BB00A23068 /* Assets.xcassets */; };
 		C4F009A11FCD15BB00A23068 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4F0099F1FCD15BB00A23068 /* LaunchScreen.storyboard */; };
@@ -33,25 +31,24 @@
 
 /* Begin PBXFileReference section */
 		58544D97D0BEC436AC8C24CE /* Pods_SwiftAdvanceDemos.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftAdvanceDemos.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		6F44F7341FEB5B310080407C /* EGFirstChildViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EGFirstChildViewController.swift; sourceTree = "<group>"; };
-		6F44F7361FEB7EE00080407C /* EGThirdTopTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EGThirdTopTableViewCell.swift; sourceTree = "<group>"; };
-		6F48B62B1FEA3AD400443CEA /* EGBasicViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EGBasicViewController.swift; sourceTree = "<group>"; };
-		6F48B62F1FEA3AF100443CEA /* EGBasicNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EGBasicNavigationController.swift; sourceTree = "<group>"; };
-		6F48B6301FEA3AF100443CEA /* EGTabBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EGTabBar.swift; sourceTree = "<group>"; };
-		6F48B6311FEA3AF100443CEA /* EGTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EGTabBarController.swift; sourceTree = "<group>"; };
-		6F48B6351FEA3B5000443CEA /* EGBasicViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EGBasicViewController.swift; path = TabBar/Basic/EGBasicViewController.swift; sourceTree = SOURCE_ROOT; };
 		6F58693C1FCFFC1000069C90 /* EGRootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EGRootViewController.swift; sourceTree = "<group>"; };
 		6F5869401FCFFF4900069C90 /* EGStopWatchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EGStopWatchViewController.swift; sourceTree = "<group>"; };
-		6F8BC9BA1FEA32180097EAD9 /* TabBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TabBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		6F8BC9BC1FEA32180097EAD9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		6F8BC9C31FEA32180097EAD9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		6F8BC9C61FEA32180097EAD9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		6F8BC9C81FEA32180097EAD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6F8BC9D41FEA35860097EAD9 /* EGFirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EGFirstViewController.swift; sourceTree = "<group>"; };
-		6F8BC9D61FEA358C0097EAD9 /* EGSecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EGSecondViewController.swift; sourceTree = "<group>"; };
-		6F8BC9D81FEA37720097EAD9 /* EGThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EGThirdViewController.swift; sourceTree = "<group>"; };
-		6F9C7E021FECA769002D2C44 /* EGOptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EGOptionView.swift; sourceTree = "<group>"; };
-		6FD97C5B1FEBB5BC0073834B /* EGScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EGScrollView.swift; sourceTree = "<group>"; };
+		91349B1021426D2D007E3869 /* EGTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EGTabBarController.swift; sourceTree = "<group>"; };
+		91349B1221426E6C007E3869 /* EGNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EGNavigationController.swift; sourceTree = "<group>"; };
+		91349B1521426F90007E3869 /* EGBasicViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EGBasicViewController.swift; sourceTree = "<group>"; };
+		91349B1921426FC1007E3869 /* EGSecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EGSecondViewController.swift; sourceTree = "<group>"; };
+		91349B1B21426FC8007E3869 /* EGThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EGThirdViewController.swift; sourceTree = "<group>"; };
+		91349B1D21426FD4007E3869 /* EGFirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EGFirstViewController.swift; sourceTree = "<group>"; };
+		91820A3F214377E600EB94E8 /* SnapKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SnapKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		91820A422143791200EB94E8 /* SnapKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SnapKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		91820A472143A52300EB94E8 /* EGLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EGLabel.swift; sourceTree = "<group>"; };
+		91820A4B2143AA0700EB94E8 /* EGFreshManTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EGFreshManTableViewCell.swift; sourceTree = "<group>"; };
+		91820A4C2143AA0700EB94E8 /* EGFreshManTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EGFreshManTableViewCell.xib; sourceTree = "<group>"; };
+		91820A512143BD5400EB94E8 /* EGBannerTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EGBannerTableViewCell.swift; sourceTree = "<group>"; };
+		91820A532143C4A600EB94E8 /* Banner_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Banner_1.png; sourceTree = "<group>"; };
+		91820A542143C4A600EB94E8 /* Banner_4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Banner_4.png; sourceTree = "<group>"; };
+		91820A552143C4A600EB94E8 /* Banner_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Banner_2.png; sourceTree = "<group>"; };
+		91820A562143C4A600EB94E8 /* Banner_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Banner_3.png; sourceTree = "<group>"; };
 		A4295BE8D70C1BB4C3943E0D /* Pods-SwiftAdvanceDemos.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftAdvanceDemos.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftAdvanceDemos/Pods-SwiftAdvanceDemos.release.xcconfig"; sourceTree = "<group>"; };
 		BD44F10D9BFB446C0F2A46E8 /* Pods-TabBar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TabBar.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TabBar/Pods-TabBar.debug.xcconfig"; sourceTree = "<group>"; };
 		C4F009931FCD15BB00A23068 /* SwiftAdvanceDemos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftAdvanceDemos.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -65,14 +62,6 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		6F8BC9B71FEA32180097EAD9 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				76F8E1ECFCEB2ABC8DC6D7E3 /* Pods_TabBar.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		C4F009901FCD15BB00A23068 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -84,30 +73,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		6F48B62E1FEA3AF100443CEA /* Basic */ = {
-			isa = PBXGroup;
-			children = (
-				6F48B62B1FEA3AD400443CEA /* EGBasicViewController.swift */,
-				6F48B62F1FEA3AF100443CEA /* EGBasicNavigationController.swift */,
-				6F48B6311FEA3AF100443CEA /* EGTabBarController.swift */,
-				6F48B6301FEA3AF100443CEA /* EGTabBar.swift */,
-			);
-			path = Basic;
-			sourceTree = "<group>";
-		};
-		6F8BC9BB1FEA32180097EAD9 /* TabBar */ = {
-			isa = PBXGroup;
-			children = (
-				6F8BC9BC1FEA32180097EAD9 /* AppDelegate.swift */,
-				6F48B62E1FEA3AF100443CEA /* Basic */,
-				6FF17AC11FEA397E00814997 /* Classes */,
-				6F8BC9C31FEA32180097EAD9 /* Assets.xcassets */,
-				6F8BC9C51FEA32180097EAD9 /* LaunchScreen.storyboard */,
-				6F8BC9C81FEA32180097EAD9 /* Info.plist */,
-			);
-			path = TabBar;
-			sourceTree = "<group>";
-		};
 		6FA9F29C4F9870DAA789D04D /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -119,34 +84,70 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		6FF17AC11FEA397E00814997 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				6F8BC9D41FEA35860097EAD9 /* EGFirstViewController.swift */,
-				6F44F7341FEB5B310080407C /* EGFirstChildViewController.swift */,
-				6F8BC9D61FEA358C0097EAD9 /* EGSecondViewController.swift */,
-				6F9C7E021FECA769002D2C44 /* EGOptionView.swift */,
-				6FD97C5B1FEBB5BC0073834B /* EGScrollView.swift */,
-				6F8BC9D81FEA37720097EAD9 /* EGThirdViewController.swift */,
-				6F44F7361FEB7EE00080407C /* EGThirdTopTableViewCell.swift */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
 		74CC2D4D900ACE363C96F553 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				91820A422143791200EB94E8 /* SnapKit.framework */,
+				91820A3F214377E600EB94E8 /* SnapKit.framework */,
 				58544D97D0BEC436AC8C24CE /* Pods_SwiftAdvanceDemos.framework */,
 				F2E4EE13B19296875B9BE0BA /* Pods_TabBar.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		91349B1421426F74007E3869 /* BasicController */ = {
+			isa = PBXGroup;
+			children = (
+				91349B1021426D2D007E3869 /* EGTabBarController.swift */,
+				91349B1521426F90007E3869 /* EGBasicViewController.swift */,
+				91349B1221426E6C007E3869 /* EGNavigationController.swift */,
+			);
+			path = BasicController;
+			sourceTree = "<group>";
+		};
+		91349B1F2142758C007E3869 /* Functions */ = {
+			isa = PBXGroup;
+			children = (
+				6F58693C1FCFFC1000069C90 /* EGRootViewController.swift */,
+				6F5869401FCFFF4900069C90 /* EGStopWatchViewController.swift */,
+			);
+			path = Functions;
+			sourceTree = "<group>";
+		};
+		91820A492143A52A00EB94E8 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				91820A472143A52300EB94E8 /* EGLabel.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		91820A4A2143A9CC00EB94E8 /* CustomCell */ = {
+			isa = PBXGroup;
+			children = (
+				91349B1921426FC1007E3869 /* EGSecondViewController.swift */,
+				91820A512143BD5400EB94E8 /* EGBannerTableViewCell.swift */,
+				91820A4B2143AA0700EB94E8 /* EGFreshManTableViewCell.swift */,
+				91820A4C2143AA0700EB94E8 /* EGFreshManTableViewCell.xib */,
+			);
+			path = CustomCell;
+			sourceTree = "<group>";
+		};
+		91820A5B2143C4B000EB94E8 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				91820A532143C4A600EB94E8 /* Banner_1.png */,
+				91820A552143C4A600EB94E8 /* Banner_2.png */,
+				91820A562143C4A600EB94E8 /* Banner_3.png */,
+				91820A542143C4A600EB94E8 /* Banner_4.png */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
 		C4F0098A1FCD15BB00A23068 = {
 			isa = PBXGroup;
 			children = (
 				C4F009951FCD15BB00A23068 /* SwiftAdvanceDemos */,
-				6F8BC9BB1FEA32180097EAD9 /* TabBar */,
 				C4F009941FCD15BB00A23068 /* Products */,
 				6FA9F29C4F9870DAA789D04D /* Pods */,
 				74CC2D4D900ACE363C96F553 /* Frameworks */,
@@ -157,7 +158,6 @@
 			isa = PBXGroup;
 			children = (
 				C4F009931FCD15BB00A23068 /* SwiftAdvanceDemos.app */,
-				6F8BC9BA1FEA32180097EAD9 /* TabBar.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -166,12 +166,16 @@
 			isa = PBXGroup;
 			children = (
 				C4F009961FCD15BB00A23068 /* AppDelegate.swift */,
-				6F58693C1FCFFC1000069C90 /* EGRootViewController.swift */,
-				6F5869401FCFFF4900069C90 /* EGStopWatchViewController.swift */,
-				6F48B6351FEA3B5000443CEA /* EGBasicViewController.swift */,
+				91820A492143A52A00EB94E8 /* Common */,
+				91349B1421426F74007E3869 /* BasicController */,
+				91349B1F2142758C007E3869 /* Functions */,
+				91349B1D21426FD4007E3869 /* EGFirstViewController.swift */,
+				91820A4A2143A9CC00EB94E8 /* CustomCell */,
+				91349B1B21426FC8007E3869 /* EGThirdViewController.swift */,
 				C4F0099D1FCD15BB00A23068 /* Assets.xcassets */,
 				C4F0099F1FCD15BB00A23068 /* LaunchScreen.storyboard */,
 				C4F009A21FCD15BB00A23068 /* Info.plist */,
+				91820A5B2143C4B000EB94E8 /* Source */,
 			);
 			path = SwiftAdvanceDemos;
 			sourceTree = "<group>";
@@ -179,26 +183,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		6F8BC9B91FEA32180097EAD9 /* TabBar */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 6F8BC9CB1FEA32180097EAD9 /* Build configuration list for PBXNativeTarget "TabBar" */;
-			buildPhases = (
-				8095695EA10CD9B115A75ECB /* [CP] Check Pods Manifest.lock */,
-				6F8BC9B61FEA32180097EAD9 /* Sources */,
-				6F8BC9B71FEA32180097EAD9 /* Frameworks */,
-				6F8BC9B81FEA32180097EAD9 /* Resources */,
-				2485E1CF8593BE4ECCCD958E /* [CP] Embed Pods Frameworks */,
-				1975BDC292CB0D2E00581F19 /* [CP] Copy Pods Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = TabBar;
-			productName = TabBar;
-			productReference = 6F8BC9BA1FEA32180097EAD9 /* TabBar.app */;
-			productType = "com.apple.product-type.application";
-		};
 		C4F009921FCD15BB00A23068 /* SwiftAdvanceDemos */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = C4F009A51FCD15BB00A23068 /* Build configuration list for PBXNativeTarget "SwiftAdvanceDemos" */;
@@ -208,7 +192,6 @@
 				C4F009901FCD15BB00A23068 /* Frameworks */,
 				C4F009911FCD15BB00A23068 /* Resources */,
 				4D7BC0CACD5E98ED9608A92C /* [CP] Embed Pods Frameworks */,
-				DB42BD1B70BCF7A830F0D1E1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -227,13 +210,9 @@
 			attributes = {
 				CLASSPREFIX = EG;
 				LastSwiftUpdateCheck = 0910;
-				LastUpgradeCheck = 0900;
+				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = EGMade;
 				TargetAttributes = {
-					6F8BC9B91FEA32180097EAD9 = {
-						CreatedOnToolsVersion = 9.1;
-						ProvisioningStyle = Automatic;
-					};
 					C4F009921FCD15BB00A23068 = {
 						CreatedOnToolsVersion = 9.0.1;
 						ProvisioningStyle = Automatic;
@@ -254,26 +233,21 @@
 			projectRoot = "";
 			targets = (
 				C4F009921FCD15BB00A23068 /* SwiftAdvanceDemos */,
-				6F8BC9B91FEA32180097EAD9 /* TabBar */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		6F8BC9B81FEA32180097EAD9 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6F8BC9C71FEA32180097EAD9 /* LaunchScreen.storyboard in Resources */,
-				6F8BC9C41FEA32180097EAD9 /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		C4F009911FCD15BB00A23068 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				91820A592143C4A600EB94E8 /* Banner_2.png in Resources */,
+				91820A4E2143AA0700EB94E8 /* EGFreshManTableViewCell.xib in Resources */,
+				91820A582143C4A600EB94E8 /* Banner_4.png in Resources */,
+				91820A572143C4A600EB94E8 /* Banner_1.png in Resources */,
 				C4F009A11FCD15BB00A23068 /* LaunchScreen.storyboard in Resources */,
+				91820A5A2143C4A600EB94E8 /* Banner_3.png in Resources */,
 				C4F0099E1FCD15BB00A23068 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -281,21 +255,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		1975BDC292CB0D2E00581F19 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TabBar/Pods-TabBar-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		22B908DB40DF97514D034F11 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -314,13 +273,13 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		2485E1CF8593BE4ECCCD958E /* [CP] Embed Pods Frameworks */ = {
+		4D7BC0CACD5E98ED9608A92C /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-TabBar/Pods-TabBar-frameworks.sh",
+				"${SRCROOT}/Pods/Target Support Files/Pods-SwiftAdvanceDemos/Pods-SwiftAdvanceDemos-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
 			);
@@ -331,101 +290,34 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TabBar/Pods-TabBar-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		4D7BC0CACD5E98ED9608A92C /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwiftAdvanceDemos/Pods-SwiftAdvanceDemos-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		8095695EA10CD9B115A75ECB /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-TabBar-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		DB42BD1B70BCF7A830F0D1E1 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwiftAdvanceDemos/Pods-SwiftAdvanceDemos-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		6F8BC9B61FEA32180097EAD9 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6F48B6331FEA3AF100443CEA /* EGTabBar.swift in Sources */,
-				6F48B6321FEA3AF100443CEA /* EGBasicNavigationController.swift in Sources */,
-				6F48B62D1FEA3AD400443CEA /* EGBasicViewController.swift in Sources */,
-				6F8BC9D71FEA358C0097EAD9 /* EGSecondViewController.swift in Sources */,
-				6F8BC9D51FEA35860097EAD9 /* EGFirstViewController.swift in Sources */,
-				6F44F7371FEB7EE00080407C /* EGThirdTopTableViewCell.swift in Sources */,
-				6F8BC9BD1FEA32180097EAD9 /* AppDelegate.swift in Sources */,
-				6F8BC9D91FEA37720097EAD9 /* EGThirdViewController.swift in Sources */,
-				6FD97C5C1FEBB5BC0073834B /* EGScrollView.swift in Sources */,
-				6F9C7E031FECA769002D2C44 /* EGOptionView.swift in Sources */,
-				6F48B6341FEA3AF100443CEA /* EGTabBarController.swift in Sources */,
-				6F44F7351FEB5B310080407C /* EGFirstChildViewController.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		C4F0098F1FCD15BB00A23068 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				91820A4D2143AA0700EB94E8 /* EGFreshManTableViewCell.swift in Sources */,
 				6F58693D1FCFFC1000069C90 /* EGRootViewController.swift in Sources */,
+				91349B1E21426FD4007E3869 /* EGFirstViewController.swift in Sources */,
+				91820A482143A52300EB94E8 /* EGLabel.swift in Sources */,
 				C4F009971FCD15BB00A23068 /* AppDelegate.swift in Sources */,
 				6F5869411FCFFF4900069C90 /* EGStopWatchViewController.swift in Sources */,
-				6F48B6361FEA3B5000443CEA /* EGBasicViewController.swift in Sources */,
+				91349B1C21426FC8007E3869 /* EGThirdViewController.swift in Sources */,
+				91349B1321426E6C007E3869 /* EGNavigationController.swift in Sources */,
+				91349B1121426D2D007E3869 /* EGTabBarController.swift in Sources */,
+				91349B1A21426FC1007E3869 /* EGSecondViewController.swift in Sources */,
+				91349B1621426F90007E3869 /* EGBasicViewController.swift in Sources */,
+				91820A522143BD5400EB94E8 /* EGBannerTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		6F8BC9C51FEA32180097EAD9 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6F8BC9C61FEA32180097EAD9 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
 		C4F0099F1FCD15BB00A23068 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -437,40 +329,6 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		6F8BC9C91FEA32180097EAD9 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = BD44F10D9BFB446C0F2A46E8 /* Pods-TabBar.debug.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 8PLB35PLP3;
-				INFOPLIST_FILE = TabBar/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = evi.TabBar;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		6F8BC9CA1FEA32180097EAD9 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = CDD6C835FF9A8014AFF866C3 /* Pods-TabBar.release.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 8PLB35PLP3;
-				INFOPLIST_FILE = TabBar/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = evi.TabBar;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
 		C4F009A31FCD15BB00A23068 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -485,6 +343,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -492,6 +351,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -519,7 +379,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -542,6 +402,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -549,6 +410,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -570,7 +432,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -584,9 +446,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 8PLB35PLP3;
+				DEVELOPMENT_TEAM = NXUQZ8YP3C;
 				INFOPLIST_FILE = SwiftAdvanceDemos/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.evilGoose.SwiftAdvanceDemos;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -601,9 +463,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 8PLB35PLP3;
+				DEVELOPMENT_TEAM = NXUQZ8YP3C;
 				INFOPLIST_FILE = SwiftAdvanceDemos/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.evilGoose.SwiftAdvanceDemos;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -615,15 +477,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6F8BC9CB1FEA32180097EAD9 /* Build configuration list for PBXNativeTarget "TabBar" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				6F8BC9C91FEA32180097EAD9 /* Debug */,
-				6F8BC9CA1FEA32180097EAD9 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		C4F0098E1FCD15BB00A23068 /* Build configuration list for PBXProject "SwiftAdvanceDemos" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

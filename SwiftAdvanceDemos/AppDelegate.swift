@@ -19,7 +19,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         self.window = UIWindow.init(frame: UIScreen.main.bounds)
         
-        self.window?.rootViewController = UINavigationController.init(rootViewController: EGRootViewController.init())
+        self.window?.rootViewController = EGTabBarController.init()
         
         self.window?.makeKeyAndVisible()
         
